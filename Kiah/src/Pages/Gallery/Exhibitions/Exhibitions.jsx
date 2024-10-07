@@ -1,9 +1,12 @@
 import React from 'react';
 import './Exhibitions.css';
+import Hero from '../../../components/Hero/Hero';
 
 const Exhibitions = () => {
   return (
-    <div>Exhibitions</div>
+    <div>
+      <Hero title="Exhibitions"/>
+    Exhibitions</div>
   )
 }
 

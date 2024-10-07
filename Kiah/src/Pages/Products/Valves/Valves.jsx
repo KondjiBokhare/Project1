@@ -1,9 +1,12 @@
 import React from 'react';
 import './Valves.css';
+import Hero from '../../../components/Hero/Hero';
 
 const Valves = () => {
   return (
-    <div>Valves</div>
+    <div>
+      <Hero title="Valves"/>
+      Valves</div>
   )
 }
 

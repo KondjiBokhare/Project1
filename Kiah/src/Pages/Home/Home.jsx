@@ -39,6 +39,7 @@ const Home = () => {
       <div className="achievement"></div>
       <Heading subHead="Our Services" title="Materials we provide"/>
       <Heading subHead="our social" title="SOCIAL MEDIA OF KIAH METALLURGICAL" />
+      <Heading subHead="testimonials" title="what people say" />
     </div>
   )
 }

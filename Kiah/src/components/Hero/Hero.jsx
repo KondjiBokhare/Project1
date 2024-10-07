@@ -1,13 +1,14 @@
 import React from 'react';
+import './Hero.css';
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <section className="hero">
-      <img src="https://www.kiahmetallurgical.com/admin/testimonial_img/1649887144.jpg" alt="Hero Background Image" />
-      <h1>Welcome to Kiah Metallurgical</h1>
-      <p>We provide high-quality metallurgical services.</p>
-      <button>Learn More</button>
-    </section>
+   <div className="hero">
+    <div className="title">
+      <h2>{props.title}</h2>
+      <span className="special">{props.special}</span>
+    </div>
+   </div>
   );
 };
 

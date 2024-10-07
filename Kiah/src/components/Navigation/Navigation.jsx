@@ -75,7 +75,7 @@ const Navigation = () => {
               <div className="left-items">
                 <Link to={'/products'}>All Products</Link>
                 <Link to={'/valves'}>Valves</Link>
-                <Link to={'/buttweld-fitings'}>Buttweld Fittings</Link>
+                <Link to={'/buttweld-fittings'}>Buttweld Fittings</Link>
                 <Link to={'/bright-bar'}>Bright Bar</Link>
                 <Link to={'/fasteners'}>Fasteners</Link>
                 <Link to={'/ferrule'}>Ferrule Instrumentation...</Link>

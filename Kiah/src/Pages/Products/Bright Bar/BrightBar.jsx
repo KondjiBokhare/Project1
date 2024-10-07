@@ -1,9 +1,12 @@
 import React from 'react';
 import './BrightBar.css';
+import Hero from '../../../components/Hero/Hero';
 
 const BrightBar = () => {
   return (
-    <div>BrightBar</div>
+    <div>
+      <Hero title="Bright bar"/>
+      BrightBar</div>
   )
 }
 

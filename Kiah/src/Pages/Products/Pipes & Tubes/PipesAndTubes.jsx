@@ -1,9 +1,12 @@
 import React from 'react';
 import './PipesAndTubes.css';
+import Hero from '../../../components/Hero/Hero';
 
 const PipesAndTubes = () => {
   return (
-    <div>PipesAndTubes</div>
+    <div>
+      <Hero title="pipes & tubes"/>
+      PipesAndTubes</div>
   )
 }
 

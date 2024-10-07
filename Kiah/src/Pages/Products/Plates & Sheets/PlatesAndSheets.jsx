@@ -1,9 +1,12 @@
 import React from 'react';
 import './PlatesAndSheets.css';
+import Hero from '../../../components/Hero/Hero';
 
 const PlatesAndSheets = () => {
   return (
-    <div>PlatesAndSheets</div>
+    <div>
+      <Hero title="plates & sheets"/>
+      PlatesAndSheets</div>
   )
 }
 

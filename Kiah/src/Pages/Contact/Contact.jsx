@@ -1,10 +1,14 @@
-import React from 'react';
-import './Contact.css';
+import React from "react";
+import "./Contact.css";
+import Hero from "../../components/Hero/Hero";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div>
+      <Hero title="Contact us" />
+      Contact
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

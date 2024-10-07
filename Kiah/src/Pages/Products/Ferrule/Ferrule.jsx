@@ -1,9 +1,12 @@
 import React from 'react';
 import './Ferrule.css';
+import Hero from '../../../components/Hero/Hero';
 
 const Ferrule = () => {
   return (
-    <div>Ferrule</div>
+    <div>
+      <Hero title="ferrule instrumentation"/>
+      Ferrule</div>
   )
 }
 

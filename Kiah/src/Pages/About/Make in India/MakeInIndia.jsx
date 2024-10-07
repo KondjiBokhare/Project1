@@ -1,9 +1,12 @@
 import React from 'react';
 import './MakeInIndia.css';
+import Hero from '../../../components/Hero/Hero';
 
 const MakeInIndia = () => {
   return (
-    <div>MakeInIndia</div>
+    <div>
+       <Hero title="make in india" />
+      MakeInIndia</div>
   )
 }
 

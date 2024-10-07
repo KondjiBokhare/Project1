@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from '../../../components/Hero/Hero'
 
 const MarketSector = () => {
   return (
-    <div>MarketSector</div>
+    <div>
+      <Hero title="Market sector"/>
+      MarketSector</div>
   )
 }
 

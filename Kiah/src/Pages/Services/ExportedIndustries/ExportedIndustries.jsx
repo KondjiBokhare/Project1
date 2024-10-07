@@ -1,9 +1,12 @@
 import React from 'react';
 import './ExportedIndustries.css';
+import Hero from '../../../components/Hero/Hero';
 
 const ExportedIndustries = () => {
   return (
-    <div>ExportedIndustries</div>
+    <div>
+      <Hero title="Exported Industries"/>
+      ExportedIndustries</div>
   )
 }
 

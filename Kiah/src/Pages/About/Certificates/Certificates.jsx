@@ -1,10 +1,14 @@
-import React from 'react';
-import './Certificates.css';
+import React from "react";
+import "./Certificates.css";
+import Hero from "../../../components/Hero/Hero";
 
 const Certificates = () => {
   return (
-    <div>Certificates</div>
-  )
-}
+    <div>
+      <Hero title="certificates" />
+      Certificates
+    </div>
+  );
+};
 
-export default Certificates
+export default Certificates;

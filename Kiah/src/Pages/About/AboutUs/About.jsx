@@ -3,16 +3,15 @@ import "./About.css";
 import { PiWrenchThin } from "react-icons/pi";
 import { LuHardHat } from "react-icons/lu";
 import { GiButterflyFlower } from "react-icons/gi";
+import Hero from "../../../components/Hero/Hero";
+import Heading from "../../../components/Heading/Heading";
 
 function AboutUs() {
   return (
+    <>
+    <Hero title="About KIAH METALLURGICAL" />
     <div className="about-us-page">
-      <section className="hero-section">
-        <div className="hero-content">
-          <h2>ABOUT KIAH METALLURGICAL</h2>
-        </div>
-      </section>
-      <section className="about-us-section">
+      <div className="about-us-section">
         <div className="info">
           <h2>About Us</h2>
           <p>
@@ -41,8 +40,8 @@ function AboutUs() {
             />
           </video>
         </div>
-      </section>
-      <section className="mission-section">
+      </div>
+      <div className="mission-section">
         <div className="credible">
           <div className="mission-section-logo"><PiWrenchThin /></div>
           <div className="mission-section-heading">Creditable Integrity</div>
@@ -66,9 +65,9 @@ function AboutUs() {
             <p>Our Result Oriented Products are based on <b>Quality Checks & Certifications</b> through our <b>in-house capabilities & private or public Testing Laboratories.</b></p>
           </div>
         </div>
-      </section>
-      <h2>EXPERT TEAM</h2>
-      <section className="team-info">
+      </div>
+      <Heading subHead="our specialist" title="expert team"/>
+      <div className="team-info">
         <div className="card">
           <div className="image">
             <img
@@ -141,8 +140,9 @@ function AboutUs() {
             <p>Managing Director</p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
+    </>
   );
 }
 

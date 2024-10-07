@@ -1,71 +1,71 @@
-.about-us-page {
-  height: auto;
-  width: 100%;     
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .about-us-page { 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.hero-section {
-  background-image: url('https://www.kiahmetallurgical.com/images/background/bg-banner.png');
-  background-size: cover;
-  background-position: center;
+.about-us-page{
+  height: auto;
+  width: 100vh;
   display: flex;
-  justify-content: left;
+  flex-direction: column;
   align-items: center;
-  color: #fff;
-  padding: 100px;
-  width: 100%;
+  justify-content: center;
+  padding: 200px;
+  gap: 150px;
 }
 
-.hero-content {
-  font-weight: bolder;
-  font-size: 25px;
-}
-
-
-.about-us-section {
+/* .about-us-section {
   margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 150px;
-  border: 1px solid yellow;
+} */
 
+.about-us-page .about-us-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about-us-section .info{
+/* .about-us-section .info{
   height: auto;
   width: 50%;
   border: 1px solid red;
 }
 .about-us-section .video{
-  border: 1px solid blue
-}
+ 
+} */
 
 
-.mission-section {
+/* .mission-section {
  display: flex;
  column-gap: 50px;
  margin-bottom: 100px;
  padding: 50px 250px;
- background-color: rgb(198, 241, 216);
-}
+ background-color: #F3F6FA;
+} */
 
 
-.mission-section .mission-section-logo{
+/* .mission-section .mission-section-logo{
   font-size: 50px;
   color: rgb(128, 164, 164);
-}
+} */
 
-.mission-section .mission-section-heading{
+/* .mission-section .mission-section-heading{
   font-size: 20px;
   margin-bottom: 7px;
   font-weight: 900;
-}
+} */
 
-.team-info{
+/* .team-info{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -73,30 +73,31 @@
   padding-left: 250px;
   padding-right: 250px;
   gap: 50px;
-}
+} */
 
-.team-info .card{
+/* .team-info .card{
   height: auto;
   width: 300px;
-}
+} */
 
-.team-info .card .image img{
+/* .team-info .card .image img{
   z-index: -1;
   background-clip: content-box;
-}
+} */
 
-.team-info .card .card-info{
+/* .team-info .card .card-info{
   height: 100px;
   width: 100%;
-  background-color: rgb(190, 52, 52);
+  background-color: #7D1619;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 100PX;
-}
+  color: #fff;
+} */
 
-.card-info:hover{
+/* .card-info:hover{
   margin-top: -10px;
-  z-index: 2;
-}
+  border-bottom: 5px solid #FE9900;
+} */
