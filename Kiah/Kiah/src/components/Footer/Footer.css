@@ -15,7 +15,6 @@
 
 .footer .columns{
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     width: auto;
     height: auto;
@@ -68,14 +67,12 @@
     width: 250px;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     row-gap: 20px;
 }
 
 .cthree .mail-links{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     row-gap: 20px;   
 }
@@ -102,6 +99,6 @@ a:hover{
 
 .columns .cfour .map iframe{
     height: 200px;
-    width: 300px;
+    width: 200px;
     margin-top: 20px;
 }
