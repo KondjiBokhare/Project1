@@ -14,7 +14,7 @@ const Certificates = () => {
       <div className="certificates">
         <div className="certificate">
           <div className="img">
-            <img src="https://www.kiahmetallurgical.com/admin/certificate_pdf/1616853170.pdf" alt="" />
+            <img src="" alt="" />
           </div>
           <div className="info">
             <div className="title">ISO 9001:2015</div>
