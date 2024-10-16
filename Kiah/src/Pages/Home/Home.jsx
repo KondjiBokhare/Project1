@@ -1,9 +1,11 @@
 import React from 'react';
 import './Home.css';
 import CarouselComponent from '../../components/Carousel/CarouselComponent';
-import { LuMapPin } from 'react-icons/lu';
+import { IoSettingsOutline } from "react-icons/io5";
 import Heading from '../../components/Heading/Heading';
 import { Link } from 'react-router-dom';
+import { GiBrodieHelmet, GiButterflyFlower } from "react-icons/gi";
+
 
 const Home = () => {
   return (
@@ -11,7 +13,7 @@ const Home = () => {
       <div className="carousel"><CarouselComponent/></div>
       <div className="key-features">
         <div className="feature">
-          <div className="feature-logo"> <LuMapPin /></div>
+          <div className="feature-logo"> <IoSettingsOutline /></div>
           <div className="feature-info">
             <h3>Creditable Intigrity</h3>
             <p>Our Business Services are based on our Creditable Integrity of <b>Honest Communication, Genuine Products and Stronger Post Business Services.</b></p>
@@ -19,7 +21,7 @@ const Home = () => {
           </div>
         </div>
         <div className="feature">
-        <div className="feature-logo"> <LuMapPin /></div>
+        <div className="feature-logo"> <GiBrodieHelmet /></div>
           <div className="feature-info">
             <h3>Effective Team Work</h3>
             <p>Our Business Style solely relies on our <b>efficient team</b>, beginning from our supplier to the <    b>hipment team working</b> in unison.</p>
@@ -27,7 +29,7 @@ const Home = () => {
           </div>
         </div>
         <div className="feature">
-        <div className="feature-logo"> <LuMapPin /></div>
+        <div className="feature-logo"> <GiButterflyFlower /></div>
           <div className="feature-info">
             <h3>Quality Assistance</h3>
             <p>Our Result Oriented Products are based on <b>Quality Checks & Certifications</b> through our <b>in-house capabilities & private or public Testing Laboratories.</b></p>

@@ -4,9 +4,10 @@ import Hero from '../../../components/Hero/Hero';
 
 const Valves = () => {
   return (
-    <div>
-      <Hero title="Valves"/>
-      Valves</div>
+    <>
+    <Hero title="valves"/>
+    <p>valves</p>
+    </>
   )
 }
 
